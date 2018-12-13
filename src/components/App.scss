@@ -1,0 +1,33 @@
+input.d-input {
+  //margin-left: 15px;
+  border: 1px #ccc solid;
+  line-height: 1em;
+  height: 35px;
+}
+
+input.n-input {
+  //margin-left: 38px;
+  border: 1px #ccc solid;
+  line-height: 1em;
+  height: 35px;
+}
+
+.input-container {
+  display: flex;
+}
+
+// admin only styles
+.wp-admin {
+  input.n-input {
+    margin-right: 50px;
+  }
+
+  .input-container span {
+    display: block;
+    margin-bottom: 3px;
+  }
+
+  .plugin-description {
+    margin-bottom: 20px;
+  }
+}
