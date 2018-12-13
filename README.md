@@ -4,7 +4,7 @@ Develop React apps easily inside of WordPress with this plugin. Uses [React Hot 
 
 ## Installation
 
-Inside `/wp-content/plugins/`:
+Inside `/wp-content/plugins/`
 
 ```bash
 git clone https://github.com/dgwyer/wp-react-plugin.git
@@ -22,19 +22,11 @@ Go to Settings > WP React Plugin in the WordPress admin to access the plugin opt
 
 ### Front End
 
-...
+The React app is a stand alone app so can be loaded on the front end too! Simply add an empty element to the new WordPress (5.0+) editor with CSS class name `wp-react-plugin`. Save the page and view on the front end to display the React app.
 
 ## Developing Your Own React Apps
 
-The whole point of this plugin is to help you get started writing your own React app inside WordPress. To do this you'll want to watch for changes to files and have the React code compiled into standard JavaScript. This plugin takes care of all that for you.
-
-Inside the plugin root folder:
-
-```bash
-npm run dev
-```
-
-And try changing the React code. If you have the browser window open at the same time you'll see your changes updated automatically as soon as your edits are saved. Even better, React state is preserved too!
+By running `npm run dev` your files will be watched by webpack for changes in real time. As soon as a change is made to a JavaScript (or JSX) file, and saved, the React app is automatically updated in the browser window. And because RHL is used then React state is preserved too!
 
 Note: Running `npm run dev` deletes the `/dist` folder so don't forget to run `npm run prod` to create the final versions of your files. Otherwise your React app won't be available outside of `npm run dev`.
 
