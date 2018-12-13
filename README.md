@@ -41,4 +41,4 @@ Also, try editing App.scss to see styles updated almost instantly.
 
 Please remember that this project is in it's very early stages of development.
 
-Any contribution is most welcome so if you see something that could be improved then please let me know by reporting an issue or submitting a pull request. You have my thanks in advance. :)
+Any contribution is most welcome so if you see something that could be improved then please let me know by reporting an issue or submitting a pull request. You have my thanks in advance. :relaxed:
