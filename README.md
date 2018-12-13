@@ -37,6 +37,8 @@ Also, try editing App.scss to see styles updated almost instantly.
 - Get https to work.
 - Find a way to enqueue development or production scripts more effectively.
 
-## Post an Issue or Pull Request
+## Contributions Welcome!
 
-Any contribution to this project is most welcome so if you see something that could be improved then please let me know via reporting an issue or submitting a pull request. You have my thanks in advance. :)
+Please remember that this project is in it's very early stages of development.
+
+Any contribution is most welcome so if you see something that could be improved then please let me know by reporting an issue or submitting a pull request. You have my thanks in advance. :)
