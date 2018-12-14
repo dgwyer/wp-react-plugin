@@ -32,15 +32,13 @@ class WP_React_Plugin_Options {
 
   public function enqueue_admin_scripts($hook) {
 
-    // Alternative way of loading React via WP core
-    //wp_enqueue_script('react');
-    //wp_enqueue_script('react-dom');
-
     // Are we on the plugin options page?
     if( $hook === $this->plugin_options_page ) {
 
       // add react and react-dom from core
       $dep = ['wp-element'];
+      //$dep = ['react', 'react-dom']; // alternative way of loading React via WP core
+
       $handle = 'wp-react-plugin-';
 
       // enqueue development or production React code
