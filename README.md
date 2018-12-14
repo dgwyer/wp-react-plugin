@@ -37,8 +37,8 @@ Also, try editing App.scss to see styles updated almost instantly.
 
 ## To Do (link these to issues)
 
-- Get https to work. GH-5
-- Find a way to enqueue development or production scripts more effectively. GH-6
+- Get https to work. (issue #5)
+- Find a way to enqueue development or production scripts more effectively. (issue #6)
 
 ## Contributions Welcome!
 
