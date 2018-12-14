@@ -1,4 +1,5 @@
 import React from "react";
+import { hot } from "react-hot-loader";
 import { DebounceInput } from "react-debounce-input";
 import "./App.scss";
 
@@ -57,7 +58,7 @@ class App extends React.Component {
           </div>
           <div style={{ marginTop: 20 }}>
             You entered: {this.state.blogname}
-            <span id="wp-spinner" class="spinner" />
+            <span id="wp-spinner" className="spinner" />
           </div>
         </div>
       </div>
@@ -65,4 +66,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default hot(module)(App);

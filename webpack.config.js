@@ -11,7 +11,6 @@ if (process.env.NODE_ENV !== "production") {
   module.exports = {
     entry: {
       main: [
-        "react-hot-loader/patch",
         "webpack-dev-server/client?http://localhost:" + port,
         "./src/index"
       ]
