@@ -2,7 +2,7 @@
 
 Develop React apps easily inside of WordPress with this plugin. Uses [React Hot Loader](https://github.com/gaearon/react-hot-loader) internally to update changes in real time while also preserving React state.
 
-<p align="center"><image width="600" src="https://raw.githubusercontent.com/dgwyer/github-screenshots/master/state-preserved.gif?token=ABadW0bRQZzhjBfxrv4o4yh6fAAYHqMQks5cHKa2wA%3D%3D" title="Click to enlarge" /></p>
+<p align="center"><image width="500" src="https://raw.githubusercontent.com/dgwyer/github-screenshots/master/state-preserved.gif?token=ABadW0bRQZzhjBfxrv4o4yh6fAAYHqMQks5cHKa2wA%3D%3D" title="Click to enlarge" /></p>
 
 ## Installation
 
