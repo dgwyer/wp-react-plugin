@@ -9,6 +9,7 @@ Inside `/wp-content/plugins/`
 ```bash
 git clone https://github.com/dgwyer/wp-react-plugin.git
 cd wp-react-plugin
+npm install
 npm run dev
 ```
 
