@@ -58,11 +58,18 @@ if (process.env.NODE_ENV !== "production") {
 
     devServer: {
       host: "localhost",
+      disableHostCheck: true,
       port: port,
       historyApiFallback: true,
       hot: true,
       inline: true,
       headers: { "Access-Control-Allow-Origin": "*" }
+    },
+
+    resolve: {
+      alias: {
+        'react-dom': '@hot-loader/react-dom'
+      }
     }
   };
 }
